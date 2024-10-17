@@ -1,1 +1,192 @@
 /* Your code here */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+.card-1 {
+    background-color: rgb(54, 74, 50);
+    position: relative;
+    border-radius: 0.2in;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+body{
+  background-color: rgb(160, 150, 150);
+}
+h1{
+  color: rgba(49, 41, 41, 0.488);
+  font-family: Caveat;
+}
+div{
+  color: rgb(0, 0, 0);
+}
+.attribution{
+  font-family: Caveat;
+}
+.right{
+  height: 2in;
+  background-color:  rgb(54, 74, 50);
+  border-radius: .2in;
+
+}
+.brand {
+  width: .7in;
+  background-color:  rgb(54, 74, 50);
+  margin-bottom: 10px;
+  height: 40px;
+  border-right: 1px solid black;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 50px;
+}
+.sig {
+  height: 1in;
+  width: .5in;
+  background-color: rgb(54, 74, 50);
+  align-self: center;
+  padding-bottom: 60px;
+}
+
+.sig img {
+  rotate: 270deg;
+  transform-origin: bottom;
+}
+
+
+h2{
+  font-size: smaller;
+}
+
+.con{
+  background-color:  rgb(54, 74, 50);
+  width: 1.5in;
+  padding-left: 20px;
+  transform-origin: bottom;
+  margin-top: 85px;
+
+}
+
+
+.card-2{
+   background-color: rgb(54, 74, 50);
+   border-radius: .2in;
+}
+
+.right img{
+  margin-left: 61px;
+}
+
+.word{
+  font-family: Bahiana;
+  font-size:xx-large;
+
+}
+.real{
+  font-family: Bahiana;
+}
+
+.card-2{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-3{
+  background-color: rgb(54, 74, 50);
+    border-radius: .1in;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+
+/* 
+https://css-tricks.com/the-shapes-of-css/
+*/
+#base {
+    background: #000000;
+    display: inline-flex;
+    height: 160px;
+    margin-left: 4px;
+    margin-top: 76px;
+    position: relative;
+    width: 130px;
+    justify-content: flex-start;
+    align-items: center;
+    color: azure;
+    flex-direction: column;
+
+    }
+    #base:before {
+     border-bottom: 35px solid black;
+     border-left: 65px solid transparent;
+     border-right: 65px solid transparent;
+     content: "";
+     height: 0;
+     left: 0;
+     position: absolute;
+     top: -35px;
+     width: 0;
+      
+    }
+
+.card-4{
+  background-color: rgb(54, 74, 50) ;
+  border-radius: .1in;
+
+}
+
+.idk{
+  display:block;
+  margin-left: 50px;
+  margin-top:60px;
+}
+
+.info{
+  border-bottom-left-radius: .1in;
+  display: block;
+  text-align: center;
+  height: 1.9in;
+  background-color: white;
+  margin-top: 60px;
+  border-bottom-right-radius: .1in;
+  font-family: Bahiana;
+  font-size: large;
+  justify-content: center;
+  padding-top: 20px;
+
+}
+
+.wor p{
+  justify-content: center;
+  font-family: Caveat;
+  font-size: large;
+}
+
+.cor p{
+  font-family: Caveat;
+  font-size: small;
+  padding-top: 1px;
+  border-bottom: .5px solid black;
+  margin-top: -20px;
+}
+
+.ad{
+  font-family: Caveat;
+  color: white;
+  display: flex;
+  
+}
+
+.roo{
+  color: white;
+  font-family: Caveat;
+  display: flex;
+  font-size: small;
+}
+
+
+
+
